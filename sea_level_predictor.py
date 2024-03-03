@@ -24,7 +24,7 @@ def draw_plot():
 
     lin_2 = linregress(x_2, y_2)
 
-    plt.plot(np.arange(2000, 2051), lin_2.intercept + lin_2.slope * np.arange(2000, 2051), color='blue')
+    plt.plot(np.arange(2000, 2051), lin_2.intercept + lin_2.slope * np.arange(2000, 2051), color='purple')
 
     # Add labels and title
     plt.xlabel("Year")
